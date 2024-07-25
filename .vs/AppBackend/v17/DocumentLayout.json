@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\HR_APP\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\gettodayscheckincheckoutdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\gettodayscheckincheckoutdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\objects\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:objects\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetTodaysCheckinCheckoutDetailsController.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
+              "RelativeToolTip": "Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:30:47.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\HR_APP\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T12:21:42.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckInCheckoutController.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Controllers\\CheckInCheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckInCheckoutController.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Controllers\\CheckInCheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckInCheckoutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:18:43.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckinCheckout.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Objects\\CheckinCheckout.cs",
+              "RelativeDocumentMoniker": "Objects\\CheckinCheckout.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Objects\\CheckinCheckout.cs",
+              "RelativeToolTip": "Objects\\CheckinCheckout.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:20:16.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
