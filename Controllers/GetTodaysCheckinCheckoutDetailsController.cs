@@ -74,7 +74,7 @@ public class GetTodaysCheckinCheckoutDetailsController : ControllerBase
     public async Task<IActionResult> GetCurrentMonthCheckIns(int tenantId, int employeeId)
     {
         var currentDate = DateTime.UtcNow;
-        var currentMonth = currentDate.Month;
+        var currentMonth = currentDate.Month; 
         var currentYear = currentDate.Year;
 
         var query = @"

@@ -3,6 +3,8 @@
   "WorkspaceRootPath": "C:\\HR_APP\\Backend\\",
   "Documents": [
     {
+<<<<<<< HEAD
+=======
       "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,6 +17,7 @@
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:objects\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+>>>>>>> b91bad6c16c75727513e88b60d5c56e22495cbd5
       "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -26,6 +29,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+=======
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -44,6 +58,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+>>>>>>> b91bad6c16c75727513e88b60d5c56e22495cbd5
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\HR_APP\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -51,6 +66,10 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-07-24T12:21:42.132Z",
+              "EditorCaption": ""
+=======
               "WhenOpened": "2024-07-24T12:21:42.132Z"
             },
             {
@@ -77,6 +96,7 @@
               "ViewState": "AQIAAAcAAAAAAAAAAAAwwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T12:20:16.759Z"
+>>>>>>> b91bad6c16c75727513e88b60d5c56e22495cbd5
             }
           ]
         }
