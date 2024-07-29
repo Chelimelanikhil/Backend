@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HR_APP\\Backend\\AppBackend.csproj": {}
+    "C:\\Users\\brio support\\Desktop\\p1\\AppBackend\\AppBackend.csproj": {}
   },
   "projects": {
-    "C:\\HR_APP\\Backend\\AppBackend.csproj": {
+    "C:\\Users\\brio support\\Desktop\\p1\\AppBackend\\AppBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HR_APP\\Backend\\AppBackend.csproj",
+        "projectUniqueName": "C:\\Users\\brio support\\Desktop\\p1\\AppBackend\\AppBackend.csproj",
         "projectName": "AppBackend",
-        "projectPath": "C:\\HR_APP\\Backend\\AppBackend.csproj",
+        "projectPath": "C:\\Users\\brio support\\Desktop\\p1\\AppBackend\\AppBackend.csproj",
         "packagesPath": "C:\\Users\\brio support\\.nuget\\packages\\",
-        "outputPath": "C:\\HR_APP\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\brio support\\Desktop\\p1\\AppBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,24 +39,23 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -70,24 +69,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
