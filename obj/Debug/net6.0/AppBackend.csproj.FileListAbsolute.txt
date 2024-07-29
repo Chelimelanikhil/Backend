@@ -30,3 +30,88 @@ C:\Users\brio support\Desktop\p1\AppBackend\obj\Debug\net6.0\refint\AppBackend.d
 C:\Users\brio support\Desktop\p1\AppBackend\obj\Debug\net6.0\AppBackend.pdb
 C:\Users\brio support\Desktop\p1\AppBackend\obj\Debug\net6.0\AppBackend.genruntimeconfig.cache
 C:\Users\brio support\Desktop\p1\AppBackend\obj\Debug\net6.0\ref\AppBackend.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\AppBackend.exe
+C:\HR_APP\Backend\bin\Debug\net6.0\appsettings.Development.json
+C:\HR_APP\Backend\bin\Debug\net6.0\appsettings.json
+C:\HR_APP\Backend\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\MySql.Data.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Text.Json.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\ZstdSharp.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.csproj.AssemblyReference.cache
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.AssemblyInfoInputs.cache
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.AssemblyInfo.cs
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.csproj.CoreCompileInputs.cache
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.sourcelink.json
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets\msbuild.AppBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets\msbuild.build.AppBackend.props
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AppBackend.props
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AppBackend.props
+C:\HR_APP\Backend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\HR_APP\Backend\obj\Debug\net6.0\scopedcss\bundle\AppBackend.styles.css
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.csproj.Up2Date
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.dll
+C:\HR_APP\Backend\obj\Debug\net6.0\refint\AppBackend.dll
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.pdb
+C:\HR_APP\Backend\bin\Debug\net6.0\AppBackend.deps.json
+C:\HR_APP\Backend\bin\Debug\net6.0\AppBackend.runtimeconfig.json
+C:\HR_APP\Backend\bin\Debug\net6.0\AppBackend.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\AppBackend.pdb
+C:\HR_APP\Backend\obj\Debug\net6.0\AppBackend.genruntimeconfig.cache
+C:\HR_APP\Backend\obj\Debug\net6.0\ref\AppBackend.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
