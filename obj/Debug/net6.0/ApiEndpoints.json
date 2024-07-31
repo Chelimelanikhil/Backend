@@ -1,8 +1,40 @@
 [
   {
+    "ContainingType": "AppBackend.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AppBackend.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppBackend.Controllers.EmployeesController",
+    "Method": "GetEmployeeDetails",
+    "RelativePath": "api/Employees/GetEmployeeDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CheckinCheckoutController",
     "Method": "CheckInOrOut",
-    "RelativePath": "api/CheckinCheckout",
+    "RelativePath": "CheckinCheckout",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +50,7 @@
   {
     "ContainingType": "GetTodaysCheckinCheckoutDetailsController",
     "Method": "GetCurrentMonthCheckIns",
-    "RelativePath": "api/GetTodaysCheckinCheckoutDetails/CurrentMonth",
+    "RelativePath": "GetTodaysCheckinCheckoutDetails/CurrentMonth",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -39,7 +71,7 @@
   {
     "ContainingType": "GetTodaysCheckinCheckoutDetailsController",
     "Method": "GetDetails",
-    "RelativePath": "api/GetTodaysCheckinCheckoutDetails/GetTodaysDetails",
+    "RelativePath": "GetTodaysCheckinCheckoutDetails/GetTodaysDetails",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
