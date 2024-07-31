@@ -112,7 +112,7 @@ public class CheckinCheckoutController : ControllerBase
                 var rowsAffected = await checkOutCommand.ExecuteNonQueryAsync();
                 if (rowsAffected > 0)
                 {
-                    return Ok("Check-out recorded successfully.");
+                    return Ok();
                 }
                 else
                 {
