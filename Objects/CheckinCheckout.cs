@@ -13,4 +13,6 @@
     public string? CheckInDevice { get; set; }
     public string? CheckOutDevice { get; set; }
     public string RequestType { get; set; } // New property
+    public float LocationLatitude { get; set; }
+    public float LocationLongitude { get; set; }
 }
