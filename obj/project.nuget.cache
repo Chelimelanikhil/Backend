@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/g5hF0iZNcHcD0SbT70eD1Epb6PGEUy733ic7I/wYcwnLgCLgxwV67lNlLAi2xurdaDUScd6fkWs/RY8JbXfWg==",
+  "dgSpecHash": "3r9GfB7iHnlmmAbJSZzT4Jri4vVCSGdpZ4xf2ufizwZAW+rcV9tvkfFiMa5gTan5tLsZugtIGTO1mvb4B5fqxg==",
   "success": true,
-  "projectFilePath": "C:\\HR_APP\\Backend\\AppBackend.csproj",
+  "projectFilePath": "C:\\Users\\brio support\\Desktop\\p1\\AppBackend\\AppBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brio support\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\brio support\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
@@ -50,11 +50,7 @@
     "C:\\Users\\brio support\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\brio support\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\brio support\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
-    "C:\\Users\\brio support\\.nuget\\packages\\zstdsharp.port\\0.8.0\\zstdsharp.port.0.8.0.nupkg.sha512",
-    "C:\\Users\\brio support\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\brio support\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\brio support\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\brio support\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\brio support\\.nuget\\packages\\zstdsharp.port\\0.8.0\\zstdsharp.port.0.8.0.nupkg.sha512"
   ],
   "logs": []
 }
