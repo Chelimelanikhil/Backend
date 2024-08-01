@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using System;
+using System.Data;
 using System.Threading.Tasks;
 
 [ApiController]
@@ -33,6 +34,13 @@ public class CheckinCheckoutController : ControllerBase
                 {
                     return BadRequest("Check-in time is required.");
                 }
+                // Calculate the distance
+                double distance = CalculateDistance(request.LocationLatitude, request.LocationLongitude, request.CheckInLatitude, request.CheckInLongitude);
+                if (distance > 0.1) // Distance is in kilometers
+                {
+                    return BadRequest("Check-in location is more than 100 meters from the branch location.");
+                }
+
 
                 // Check for existing check-in for the same employee and date
                 var checkExistingCheckInQuery = @"
@@ -85,6 +93,11 @@ public class CheckinCheckoutController : ControllerBase
                 {
                     return BadRequest("Check-out time is required.");
                 }
+                double distance = CalculateDistance(request.LocationLatitude, request.LocationLongitude, (request.CheckOutLatitude), request.CheckOutLongitude);
+                if (distance > 0.1)
+                {
+                    return BadRequest("Check-out location is more than 100 meters from the branch location.");
+                }
 
                 // Update the specific check-in record
                 var checkOutQuery = @"
@@ -112,7 +125,7 @@ public class CheckinCheckoutController : ControllerBase
                 var rowsAffected = await checkOutCommand.ExecuteNonQueryAsync();
                 if (rowsAffected > 0)
                 {
-                    return Ok("Check-out recorded successfully.");
+                    return Ok();
                 }
                 else
                 {
@@ -129,5 +142,29 @@ public class CheckinCheckoutController : ControllerBase
             // Log exception here (optional)
             return StatusCode(500, $"Internal server error: {ex.Message}");
         }
+    }
+
+    private double CalculateDistance(double lat1, double lon1, double? lat2, double? lon2)
+    {
+        if (lat2 == null || lon2 == null)
+        {
+            throw new ArgumentException("Latitude and longitude values cannot be null.");
+        }
+
+        const double R = 6371; // Radius of the Earth in kilometers
+        var dLat = DegreesToRadians((double)lat2 - lat1);
+        var dLon = DegreesToRadians((double)lon2 - lon1);
+        var a =
+            Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
+            Math.Cos(DegreesToRadians(lat1)) * Math.Cos(DegreesToRadians((double)lat2)) *
+            Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+        var c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+        return R * c;
+    }
+
+
+    private double DegreesToRadians(double degrees)
+    {
+        return degrees * Math.PI / 180;
     }
 }

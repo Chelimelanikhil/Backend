@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\HR_APP\\Backend\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +14,41 @@
     {
       "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\objects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:objects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
     },
     {
       "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\gettodayscheckincheckoutdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\gettodayscheckincheckoutdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\checkincheckoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\objects\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:objects\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
       "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|c:\\hr_app\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7583856F-E420-459F-9352-6AED1EA4C69F}|AppBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +58,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
               "Title": "GetTodaysCheckinCheckoutDetailsController.cs",
               "DocumentMoniker": "C:\\HR_APP\\Backend\\Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
               "RelativeDocumentMoniker": "Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
@@ -42,6 +78,7 @@
               "RelativeToolTip": "Controllers\\GetTodaysCheckinCheckoutDetailsController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAcwDAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-07-31T06:56:18.449Z"
             },
             {
@@ -67,16 +104,88 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T06:21:16.898Z",
+=======
+              "WhenOpened": "2024-07-31T06:56:18.449Z",
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 4,
+              "Title": "CheckinCheckout.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Objects\\CheckinCheckout.cs",
+              "RelativeDocumentMoniker": "Objects\\CheckinCheckout.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Objects\\CheckinCheckout.cs",
+              "RelativeToolTip": "Objects\\CheckinCheckout.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAawBAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:48:03.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Objects\\Employee.cs",
+              "RelativeDocumentMoniker": "Objects\\Employee.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Objects\\Employee.cs",
+              "RelativeToolTip": "Objects\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:21:41.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:19:01.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:41:34.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\HR_APP\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\HR_APP\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:21:16.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
               "Title": "CheckInCheckoutController.cs",
               "DocumentMoniker": "C:\\HR_APP\\Backend\\Controllers\\CheckInCheckoutController.cs",
               "RelativeDocumentMoniker": "Controllers\\CheckInCheckoutController.cs",
               "ToolTip": "C:\\HR_APP\\Backend\\Controllers\\CheckInCheckoutController.cs",
               "RelativeToolTip": "Controllers\\CheckInCheckoutController.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAKwBAAAAAAAAAAASwMwBAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T05:49:34.935Z"
@@ -84,6 +193,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvwsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:49:34.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\HR_APP\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -91,7 +210,12 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+<<<<<<< HEAD
               "WhenOpened": "2024-07-24T12:21:42.132Z"
+=======
+              "WhenOpened": "2024-07-24T12:21:42.132Z",
+              "EditorCaption": ""
+>>>>>>> 58c777e097608efe3e802caaae654a450af4ca65
             }
           ]
         }
