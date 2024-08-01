@@ -48,6 +48,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CheckinCheckoutController",
+    "Method": "AutomateCheckInCheckOut",
+    "RelativePath": "CheckinCheckout/automate-checkin-checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GetTodaysCheckinCheckoutDetailsController",
     "Method": "GetCurrentMonthCheckIns",
     "RelativePath": "GetTodaysCheckinCheckoutDetails/CurrentMonth",
