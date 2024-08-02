@@ -2,6 +2,8 @@
 {
     public class Employee
     {
+        
+            public int? TenantID { get; set; }
         public int? EmployeeID { get; set; }
         public string BranchName { get; set; }
         public int? DepartmentID { get; set; }
