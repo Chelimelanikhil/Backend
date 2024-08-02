@@ -126,6 +126,10 @@ C:\HR_APP\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\HR_APP\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\HR_APP\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\HR_APP\Backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+<<<<<<< HEAD
+C:\HR_APP\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\HR_APP\Backend\bin\Debug\net6.0\Twilio.dll
+=======
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -133,3 +137,4 @@ C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityM
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+>>>>>>> main
