@@ -50,14 +50,14 @@
             var tenantId = reader.GetInt32("TenantID");
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]); // Ensure this key is at least 256 bits
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-            new Claim(ClaimTypes.Name, request.UserEmailId),
-            new Claim(ClaimTypes.NameIdentifier, employeeId.ToString()),
-            new Claim("TenantID", tenantId.ToString())  // Add TenantID as a claim
+                    new Claim(ClaimTypes.Name, request.UserEmailId),
+                    new Claim(ClaimTypes.NameIdentifier, employeeId.ToString()),
+                    new Claim("TenantID", tenantId.ToString())  // Add TenantID as a claim
                 }),
                 Expires = DateTime.UtcNow.AddHours(1),
                 Issuer = _configuration["Jwt:Issuer"],
@@ -77,5 +77,4 @@
         public string UserEmailId { get; set; }
         public string Password { get; set; }
     }
-
 }
