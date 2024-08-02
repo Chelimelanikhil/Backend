@@ -1,12 +1,21 @@
-﻿using System;
-using System.Threading.Tasks;
-using AppBackend.Objects;
-using Microsoft.Extensions.Configuration;
-using MySql.Data.MySqlClient;
-
-namespace AppBackend.DAO
+﻿namespace AppBackend.DAO
 {
-    public class CheckinCheckoutDAO
+    using System;
+    using System.Collections.Generic;
+    using System.Data;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using AppBackend.Objects;
+    using MySql.Data.MySqlClient;
+    using Twilio;
+    using Twilio.Rest.Api.V2010.Account;
+    using Twilio.Types;
+    using AppBackend.Interfaces;
+
+    using System.Threading.Tasks;
+
+
+    public class CheckinCheckoutDAO 
     {
         private readonly string _connectionString;
 
@@ -26,6 +35,7 @@ namespace AppBackend.DAO
                 {
                     throw new ArgumentException("Check-in time is required.");
                 }
+
 
                 var checkInQuery = @"
                 INSERT INTO CheckInCheckOut (
@@ -58,6 +68,7 @@ namespace AppBackend.DAO
                     throw new ArgumentException("Check-out time is required.");
                 }
 
+                // Fetch shift details
                 var shiftQuery = @"
                 SELECT 
                     shiftStartingTime,
@@ -67,22 +78,31 @@ namespace AppBackend.DAO
                 WHERE 
                     shiftId = @ShiftId";
 
-                var shiftStartingTime = TimeSpan.Zero;
-                var shiftEndingTime = TimeSpan.Zero;
+                var shiftStartingTime = TimeSpan.Zero; // Default value
+                var shiftEndingTime = TimeSpan.Zero;   // Default value
                 using (var shiftCommand = new MySqlCommand(shiftQuery, connection))
                 {
                     shiftCommand.Parameters.AddWithValue("@ShiftId", 1);
 
                     using (var shiftReader = await shiftCommand.ExecuteReaderAsync())
                     {
+
                         if (await shiftReader.ReadAsync())
                         {
+                            // Read as TimeSpan directly
                             shiftStartingTime = (TimeSpan)shiftReader["shiftStartingTime"];
                             shiftEndingTime = (TimeSpan)shiftReader["shiftEndingTime"];
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("***");
                         }
                     }
                 }
 
+
+                // Update the specific check-in record
                 var checkOutQuery = @"
                 UPDATE CheckInCheckOut
                 SET CheckOutTime = @CheckOutTime,
@@ -102,7 +122,7 @@ namespace AppBackend.DAO
                 var DayFrac = 0.0;
                 var PaidFrac = 0.0;
 
-                var totalHoursWorked = (request.CheckOutTime.Value - request.CheckInTime.Value).TotalHours;
+                var totalHoursWorked = (request.CheckInTime.Value - request.CheckOutTime.Value).TotalHours;
 
                 if (totalHoursWorked >= (shiftEndingTime - shiftStartingTime).TotalHours - 1)
                 {
@@ -122,7 +142,6 @@ namespace AppBackend.DAO
                     DayFrac = 0;
                     PaidFrac = 0;
                 }
-
                 using var checkOutCommand = new MySqlCommand(checkOutQuery, connection);
                 checkOutCommand.Parameters.AddWithValue("@TenantID", request.TenantID);
                 checkOutCommand.Parameters.AddWithValue("@EmployeeID", request.EmployeeID);
@@ -150,6 +169,8 @@ namespace AppBackend.DAO
             {
                 throw new ArgumentException("Invalid request type.");
             }
+
         }
+
     }
 }
