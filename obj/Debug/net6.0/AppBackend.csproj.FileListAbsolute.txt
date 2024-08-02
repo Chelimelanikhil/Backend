@@ -138,3 +138,5 @@ C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityM
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 >>>>>>> main
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\brio support\Desktop\p1\AppBackend\bin\Debug\net6.0\Twilio.dll
